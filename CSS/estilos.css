@@ -1,0 +1,248 @@
+/*ESTILOS PARA INDEX.HTML*/
+.contenedor1
+{
+display:flex;
+flex-direction: row;
+background-color: #E88E5D;
+justify-content: flex-start;
+height: 76px;
+padding: 3px;
+
+}
+
+.nosubrayado
+{
+ text-decoration:none;
+ text-decoration-color: none;
+ color: black;
+ font-family: 'Satisfy', cursive;
+ font-size: 20px;
+
+}
+.contenedor_columna
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #E88E5D;
+  justify-content: flex-end;
+  height: 76px;
+  font-size: 17px;
+}
+.contenedor_columna1
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #E88E5D;
+  justify-content: flex-end;
+  height: 76px;
+  font-size: 17px;
+}
+
+.contenedor0
+{
+display:flex;
+flex-direction: row;
+background-color: #E88E5D;
+justify-content: space-between;
+height: 76px;
+padding-left: 25px;
+padding-right: 25px;
+}
+.contenedor_fondo
+{
+  display: flex;
+  background-color: rgb(255,198,73);
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+#atrasdefondo
+{
+  background-color: black;
+
+}
+.contenedormedio
+{
+  display: flex;
+  height: 1000px;
+  align-items:center;
+  text-align: center;
+  flex-direction: column;
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+}
+.contenedor01
+{
+display:flex;
+flex-direction: row;
+background-color: #E88E5D;
+justify-content: center;
+text-align: center;
+height: 76px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.a
+{
+  display: flex;
+  justify-content:flex-end;
+  font-family:  'Satisfy', cursive;
+  flex-direction: column;
+  width: 100%;
+}
+.b
+{
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Satisfy', cursive;
+  flex-direction: row;
+  font-size: 20px;
+}
+.pad
+{
+  display: flex;
+  padding-top: 255px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  flex-direction: column;
+
+}
+
+/*CAJA QUE VA AL MEDIO -------------------*/
+.contenedorflotante{
+  position: absolute; /*para que no se mueva*/
+  top: 390px;
+  left: 50%;
+}
+
+.cajaflotante{
+  position: relative;
+  left: -50%;
+
+}
+/*ESTILOS PARA MENU.HTML--------------------------------------------------------*/
+.fuentemenu
+{
+  display: flex;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #E87265;
+  text-shadow: 2px 2px #FFAC7C;
+  font-size: 70px;
+  text-align: center;
+  justify-content: center;
+}
+.fondomenu
+{
+  display: flex;
+  flex-direction: column;
+}
+.globos
+{
+   display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.atras
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+}
+.texto
+{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 5px;
+  font-family: 'Josefin Slab', serif;
+  flex-direction: column;
+
+}
+
+/*ESTILOS PARA PROMOCIONES.HTML--------------------------------------------------------*/
+.fondopromociones
+{
+  display: flex;
+  background-image: url("../imagenes/DSC00318.jpg");
+  width: 1304px;
+  height: 1940px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  flex-direction: column;
+
+}
+.titulopromociones
+{
+  display: flex;
+  justify-content:flex-start;
+  text-align:left;
+  font-size: 50px;
+  color:#E8DB8A;
+  font-family: 'Petit Formal Script', cursive;
+  padding-left: 25px;
+}
+.gif
+{
+  padding-right: 2px;
+  padding-left: 2px;
+  margin: 14px;
+  box-shadow: 2px 2px 14px #999;
+  width: 423px;
+  height: 425px;
+}
+#pie
+{
+  display: flex;
+  padding-left: 18px;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  justify-content: flex-end;
+  text-align: justify;
+  padding-right: 5px;
+  width: 423px;
+  font-size: 20px;
+}
+
+/*ESTILOS PARA ubicanos.HTML--------------------------------------------------------*/
+
+.ubica
+{
+  display: flex;
+  background-image: url("../imagenes/41.jpg");
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: #FFC0FE;
+  justify-content: center;
+
+}
+
+.cajas
+{
+  display: flex;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  width: 1291px;
+  color:#FFC0FE;
+  padding-top: 10px;
+}
+.ubicanos
+{
+  display: flex;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 60px;
+  width: 1291px;
+  color:#FFC0FE;
+}
